@@ -1,3 +1,3 @@
-[submodule "themes/siberia"]
-	path = themes/siberia
-	url = https://github.com/hpcslag/hexo-theme-siberia.git
+[submodule "themes/lous"]
+	path = themes/lous
+	url = https://github.com/liuxiaotian/hexo-theme-lous
