@@ -102,6 +102,14 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: lous
 
+# Generate categories from directory-tree
+# Dependencies: https://github.com/xu-song/hexo-auto-category
+# depth: the max_depth of directory-tree you want to generate, should > 0
+# multiple: multiple category hierarchies
+auto_category:
+ enable: true
+ multiple: true
+ depth: 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
