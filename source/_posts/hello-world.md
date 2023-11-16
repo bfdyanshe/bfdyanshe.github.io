@@ -41,3 +41,5 @@ More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 # update
 
 中文测试
+
+![Alt text](hello-world/image.png)
