@@ -39,11 +39,13 @@ jobs:
         run: npm install
       - name: Generate Hexo Page
         run: npm run build
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ github.token }}
-          publish_dir: ./public
+
+      # - name: Deploy to gh-pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ github.token }}
+      #     publish_dir: ./public
+
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
