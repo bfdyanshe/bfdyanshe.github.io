@@ -1,0 +1,8 @@
+{
+  "enabled": true,
+  "typewriterOffset": 0.65,
+  "paddingEnabled": false,
+  "fixBottomOnly": true,
+  "zenEnabled": false,
+  "zenOpacity": 0.25
+}
