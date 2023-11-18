@@ -1,0 +1,12 @@
+{
+  "newLinkFormat": "relative",
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": true,
+  "attachmentFolderPath": "./cpumemory",
+  "foldHeading": false,
+  "autoPairMarkdown": false,
+  "useTab": false,
+  "vimMode": true,
+  "strictLineBreaks": true
+}
