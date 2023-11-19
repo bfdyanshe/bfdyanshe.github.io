@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/_translate/cpumemory.md",
+                "file": "_drafts/cpumemory.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "58a5d69a9edd75ba",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/_translate/cpumemory.md",
+                "file": "_drafts/cpumemory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/_translate/cpumemory.md",
+                "file": "_drafts/cpumemory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +126,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/_translate/cpumemory.md"
+                "file": "_drafts/cpumemory.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -148,6 +150,7 @@
   },
   "active": "206e1fa1ec816104",
   "lastOpenFiles": [
+    "_drafts/cpumemory/image-cpumemory-231119212445931.png",
     "_posts/_translate/cpumemory/image-cpumemory-231118193500703.png",
     "_posts/_translate/cpumemory.md",
     "_posts/_translate/cpumemory/image-cpumemory-231118193444628.png",
