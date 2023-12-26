@@ -24,6 +24,8 @@ def get_attachment_list(file: str):
 
 
 def source_replace_attachment_path(file: str, destination: str):
+    """把 markdown 中的附件路径替换成 hexo 的附件路径
+    """    
     with open(file, encoding="utf-8") as MdFile:
         source_lines = MdFile.readlines()
         source_lines = list(
@@ -49,14 +51,18 @@ if __name__ == "__main__":
     if os.access("_config.yml", mode=os.F_OK) is False:
         print("需要在 hexo 路径下执行")
         exit(0)
-    if os.access(destination, mode=os.F_OK):
-        print(f"{destination} 文件已存在")
-        exit(0)
     post_path = r"source\_posts"
     target_attachment_path = os.path.join(post_path, destination)
     os.mkdir(target_attachment_path)
+    if os.access(target_attachment_path, mode=os.F_OK):
+        print(f"{destination} 文件已存在")
+        exit(0)
+
+    # 复制 markdown
     target_post_md_filename = os.path.join(post_path, destination + ".md")
     copy_data = source_replace_attachment_path(filename, destination)
+
+    # 复制附件
     with open(target_post_md_filename, mode="w", encoding="utf-8") as dest:
         dest.writelines(copy_data)
     attachment_list = get_attachment_list(filename)
