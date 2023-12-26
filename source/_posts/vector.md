@@ -1,5 +1,6 @@
 ---
 title: vecotr
+date: 2023-12-26
 ---
 # SIMD
 
