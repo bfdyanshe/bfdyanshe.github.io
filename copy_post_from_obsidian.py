@@ -53,10 +53,10 @@ if __name__ == "__main__":
         exit(0)
     post_path = r"source\_posts"
     target_attachment_path = os.path.join(post_path, destination)
-    os.mkdir(target_attachment_path)
     if os.access(target_attachment_path, mode=os.F_OK):
         print(f"{destination} 文件已存在")
         exit(0)
+    os.mkdir(target_attachment_path)
 
     # 复制 markdown
     target_post_md_filename = os.path.join(post_path, destination + ".md")
