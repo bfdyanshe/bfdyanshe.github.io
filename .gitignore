@@ -7,3 +7,5 @@ node_modules/
 _multiconfig.yml
 build/
 public/
+
+source/.obsidian/workspace.json
