@@ -3,10 +3,12 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./promise",
+  "attachmentFolderPath": "./advicesofkk",
   "foldHeading": false,
   "autoPairMarkdown": false,
   "useTab": false,
   "vimMode": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": true,
+  "showInlineTitle": false,
+  "showRibbon": false
 }

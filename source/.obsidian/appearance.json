@@ -4,5 +4,6 @@
   "interfaceFontFamily": "思源黑体 CN,Microsoft JhengHei",
   "textFontFamily": "Courier New,Hack Nerd Font Mono,思源宋体",
   "monospaceFontFamily": "Hack Nerd Font",
-  "baseFontSize": 17
+  "baseFontSize": 17,
+  "showViewHeader": true
 }
