@@ -106,7 +106,8 @@ promise.then(onFulfiled, onRejected)
     4. 如果 `x` 的 `then` 属性不是一个函数，以 `x` 兑现 `promise`。
 4. 如果 `x` 不是一个对象或者函数，以 `x` 兑现 `promise`。
 
-如果一个 promise
+如果一个 promise 处于一个循环的 thenable 链中，那么 `[[Resolve]](promise, thenable)` 的递归属性最终会导致 `[[Resolve]](promise, thenable)` 再次被调用，根据以上算法会最终导致无尽递归。我们鼓励实现去检测这种递归并用 `TypeError` 作为原因拒绝 `promise` ，但不作为要求。
 
 
 # We have a problem with promise
+
