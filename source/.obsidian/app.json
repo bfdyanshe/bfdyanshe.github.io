@@ -3,7 +3,7 @@
   "newFileLocation": "current",
   "alwaysUpdateLinks": true,
   "useMarkdownLinks": true,
-  "attachmentFolderPath": "./cpumemory",
+  "attachmentFolderPath": "./promise",
   "foldHeading": false,
   "autoPairMarkdown": false,
   "useTab": false,
