@@ -5,5 +5,5 @@
   "textFontFamily": "Courier New,Hack Nerd Font Mono,思源宋体",
   "monospaceFontFamily": "Hack Nerd Font",
   "baseFontSize": 17,
-  "showViewHeader": true
+  "showViewHeader": false
 }
