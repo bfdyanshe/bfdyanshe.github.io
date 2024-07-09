@@ -39,4 +39,9 @@ THese sutdents are similar to you. They may not have had any programming experie
 
 “我的建议是注意细节并且学习例子。确保自己理解为什么每个符号为什么在这（例如 `[]`，分号，`<>`）。你可以尝试记住每个错误消息的含义，这样下次你看到同样的错误就知道自己做错了什么。”
 
-*做计划：*“1. 通读你要做的程序的描述，确保你自己知道应该做什么。2. 做一个流程图帮助你理解。3. 一步步写程序。4. ”
+...
+
+## Attitudinal Advice
+
+*It's OK, you are just a beginner:* Everyone is at different levels, there are bound to be other people that know less or the same as you. (bound to be: **肯定**有人和你一样的水平或者更少)
+
